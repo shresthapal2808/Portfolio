@@ -1,0 +1,27 @@
+.skills-section {
+    padding: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .skill-icon {
+    font-size: 64px; /* Increase the size of the icons */
+  }
+  
+  .skill-name {
+    margin-top: 5px;
+    font-size: 18px; /* Slightly increase the size of the skill names */
+    font-weight: bold;
+  }
+  

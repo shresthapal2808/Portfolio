@@ -1,0 +1,41 @@
+/* Position the container of the carousel */
+.carousel-container {
+    position: relative;
+  }
+  
+  /* Style the arrows */
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Left arrow */
+  .left-arrow {
+    left: -30px; /* Move the arrow outside to the left */
+  }
+  
+  /* Right arrow */
+  .right-arrow {
+    right: -30px; /* Move the arrow outside to the right */
+  }
+  
+  /* Glowing effect */
+  .carousel-arrow:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    transform: translateY(-50%) scale(1.2);
+  }
+  
+  /* Adjust the font size and colors for better visibility */
+  .carousel-arrow:active {
+    transform: translateY(-50%) scale(1);
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.6);
+  }
+  
