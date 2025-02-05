@@ -69,7 +69,7 @@ function Projects() {
   return (
     <Container className="my-5" id="projects">
       <h2 className="text-center mb-4" data-aos="fade-in">
-        My Latest Projects
+        <strong>My Latest Projects</strong>
       </h2>
       <Slider {...settings}>
         {projects.map((project, index) => (

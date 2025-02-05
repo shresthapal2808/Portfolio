@@ -28,15 +28,16 @@ function Header() {
           Crafting experiences through design and code
         </p>
         <a href="#contact" className="btn btn-primary" data-aos="fade-up" data-aos-delay="400">
-          Get in Touch
+          Hire Me
         </a>
       </Container>
 
-      {/* Clickable Explore Below */}
-      <div className="explore-hint" onClick={scrollToNextSection} data-aos="fade-in" data-aos-delay="600">
-        <p>Explore Below</p>
+    {/* Clickable Explore Below */}
+    
+    <div className="explore-hint" onClick={scrollToNextSection}>
         <span className="down-arrow">▼</span>
       </div>
+
     </header>
   );
 }

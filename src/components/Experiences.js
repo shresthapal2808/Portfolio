@@ -50,7 +50,7 @@ function Experiences() {
   return (
     <Container className="my-5" id="experiences">
       <h2 className="text-center mb-4" data-aos="fade-in">
-        My Experiences
+        <strong>My Experiences</strong>
       </h2>
       <Row className="justify-content-center">
         <Col md={8} lg={6}>

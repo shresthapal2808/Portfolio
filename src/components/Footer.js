@@ -10,7 +10,7 @@ function Footer() {
       id="contact"
     >
       <Container className="text-center">
-        <h4>Contact Me</h4>
+        <h4><strong>Contact Me</strong></h4>
         <p>
           <a href="mailto:palshrestha28tiu@gmail.com" style={{ color: 'white', textDecoration: 'none' }}>
             Email: <span>palshrestha28tiu@gmail.com</span>

@@ -36,15 +36,15 @@ function About() {
               />
             </Col>
             <Col md={6} data-aos="fade-left">
-              <h2>About Me</h2>
-              <p>
-              I am Shrestha Pal, a passionate Computer Science and Engineering student at Techno India University. 
-              I specialize in Python, C, C++, JavaScript, Java, Django, and modern web technologies. 
-              I thrive on building innovative digital solutions that address real-world challenges, 
-              blending technology with creativity to enhance user experiences. My work is driven by a commitment to excellence,
-               problem-solving, and continuous learning in the ever-evolving tech landscape.
-              </p>
-              <Button
+              <h2><strong>About Me</strong></h2>
+              <p style={{ textAlign: 'justify' }}>
+                  I am Shrestha Pal, a passionate Computer Science and Engineering student at Techno India University. 
+                  I specialize in Python, C, C++, JavaScript, Java, Django, and modern web technologies. 
+                  I thrive on building innovative digital solutions that address real-world challenges, 
+                  blending technology with creativity to enhance user experiences. My work is driven by a commitment to excellence,
+                  problem-solving, and continuous learning in the ever-evolving tech landscape.
+                </p>
+                <Button
                 variant="primary"
                 href="/Shrestha_Pal_CV.pdf"
                 target="_blank"
