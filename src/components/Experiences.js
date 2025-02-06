@@ -22,7 +22,7 @@ function Experiences() {
       description:
         'Selected for a 4-week software development internship at CodTech through AICTE. Built a real-time chat app and an e-commerce website clone.',
       link: '#',
-      skills: ['Django', 'Websockets', 'JavaScript', 'Bootstrap'],
+      skills: ['Websockets', 'JavaScript', 'Bootstrap'],
     },
     {
       title: 'Machine Learning Training - Trainee',
